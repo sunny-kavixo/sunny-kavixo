@@ -1,76 +1,111 @@
 # Annotation QA Workbench
 
-A practical quality-control tool for human-labelled AI datasets.
+## Problem
 
-## Purpose
+AI-data teams can receive thousands or millions of human-labelled records. A dataset can look complete while still containing **missing labels, invalid labels, low-confidence annotations, duplicate work, or disagreements between annotators**.
 
-When multiple annotators label the same records, a dataset can contain missing labels, invalid labels, disagreements, and inconsistent records. This tool turns those problems into measurable QA findings and a review queue.
+If those records are exported directly into a training or evaluation dataset, the team may discover the problem much later.
 
-## Process
+## Solution
+
+This project implements a deterministic **Dataset Quality Gate**:
 
 ```text
-Annotation records
-      ↓
-Schema + allowed-label checks
-      ↓
-Completeness checks
-      ↓
-Annotator agreement
-      ↓
-Conflict detection
-      ↓
-Priority review queue
-      ↓
+Annotation dataset
+       ↓
+Schema + policy checks
+       ↓
+Record-level validation
+       ↓
+Annotator comparison
+       ↓
+Confidence checks
+       ↓
+Severity classification
+       ↓
+Review queue
+       ↓
 Human adjudication
-      ↓
-Clean dataset
+       ↓
+Approved dataset
 ```
 
-## Input
+The system does **not** automatically rewrite disputed labels. It identifies questionable records and routes them to a human reviewer.
 
-The included `annotations.csv` contains records with an item ID, annotator, label, and confidence.
+## What is actually implemented
 
-## Run
+### 1. Dataset ingestion
+Reads annotation records from CSV.
+
+### 2. Policy-driven validation
+`policy.json` defines the allowed labels and low-confidence threshold.
+
+### 3. Record checks
+The quality engine detects:
+- missing item IDs or annotators
+- missing annotations
+- invalid labels
+- invalid confidence values
+- low-confidence annotations
+
+### 4. Cross-annotator checks
+Records are grouped by item. When multiple annotators label the same item, the engine measures simple pairwise agreement and creates a high-priority finding when labels conflict.
+
+### 5. Review routing
+Each finding contains:
+- item ID
+- severity
+- reason
+- human-readable details
+
+The CLI writes those findings to `review_queue.json`.
+
+## Run the system
+
+From this directory:
 
 ```bash
-python qa.py annotations.csv
+python review_queue.py annotations.csv policy.json
 ```
 
-## Example output
+Then inspect:
 
-```text
-ANNOTATION QA REPORT
-====================
-Records: 8
-Unique items: 4
-Annotators: 2
-Missing labels: 1
-Invalid labels: 0
-Items with disagreement: 1
-Agreement: 0.667
-Review queue: 2
+```bash
+cat review_queue.json
 ```
 
-## What the implementation does
+## Example dataset
 
-- Validates required columns.
-- Rejects labels outside the configured label set.
-- Detects missing annotations.
-- Groups annotations by item.
-- Calculates simple pairwise agreement for items labelled by two annotators.
-- Creates a review queue for disagreements and missing labels.
-- Produces JSON output suitable for downstream automation.
+The included dataset contains:
+- matching annotations
+- one disagreement
+- one incomplete annotation
+- confidence values
 
-## Test
+This gives the QA engine both normal and failure cases to process.
+
+## Tests
 
 ```bash
 python -m pytest tests/
 ```
 
+Tests cover disagreement routing, missing annotations, low confidence, and invalid labels.
+
 ## Why this is useful
 
-This is directly applicable to image, text, audio, and multimodal annotation operations. The same QA pattern can sit before a training-data export or model-evaluation dataset.
+The same architecture can be applied to:
+- image classification datasets
+- object-detection labels
+- text classification
+- speech/transcription datasets
+- video-event annotations
+- multimodal evaluation datasets
 
-## Scope
+For a production system, the next layers would include dataset versioning, persistent review state, reviewer authentication, audit history, sampling policies, richer agreement statistics, and connectors for annotation platforms.
 
-The current implementation intentionally uses transparent deterministic rules. Production annotation programs may add weighted agreement statistics, adjudicator workflows, sampling plans, audit trails, and dataset-version tracking.
+## Engineering principle
+
+**Automation decides what deserves attention; humans make the final annotation decision.**
+
+This repository documents the implemented quality gate separately from those future production extensions.
