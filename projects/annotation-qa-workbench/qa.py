@@ -3,7 +3,7 @@ from __future__ import annotations
 import csv, json, sys
 from collections import defaultdict
 
-ALLOWED = {"positive", "negative"}
+ALLOWED = {"positive", "negative"}  # kept explicit so the default dataset is reproducible
 
 def load(path):
     with open(path, newline="", encoding="utf-8") as f:
