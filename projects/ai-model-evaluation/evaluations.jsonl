@@ -1,0 +1,4 @@
+{"id":"1","input":"2+2","expected":"4","actual":"4"}
+{"id":"2","input":"Capital of France","expected":"Paris","actual":"Paris"}
+{"id":"3","input":"Primary color","expected":"Blue","actual":"Green"}
+{"id":"4","input":"Python file extension","expected":".py","actual":".py"}
