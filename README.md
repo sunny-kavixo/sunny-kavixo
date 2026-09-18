@@ -1,227 +1,111 @@
 <div align="center">
 
-# Hi, I'm Sandeep 👋
+# Sandeep 👋
 
-### Founder of KAVIXO
+### AI / Data / Robotics Builder • Technical Operations • Founder, KAVIXO
 
-**AI Automation • Education Technology • Cross-Platform Products**
+I build practical systems at the intersection of **AI data, model evaluation, automation, software, and robotics** — with a focus on projects that can be inspected, tested, and improved.
 
-Building an intelligent education and career ecosystem for adult learners,  
-competitive-exam aspirants, professionals, and job seekers.
-
-[![Website](https://img.shields.io/badge/Website-kavixo.in-111111?style=for-the-badge)](https://kavixo.in)
-![Project Status](https://img.shields.io/badge/KAVIXO-In%20Development-orange?style=for-the-badge)
-![Audience](https://img.shields.io/badge/Audience-18%2B-blue?style=for-the-badge)
+[![GitHub](https://img.shields.io/badge/GitHub-sunny--kavixo-181717?style=for-the-badge&logo=github)](https://github.com/sunny-kavixo)
+[![KAVIXO](https://img.shields.io/badge/KAVIXO-Project-111111?style=for-the-badge)](https://kavixo.in)
 
 </div>
 
 ---
 
-## 🚀 Current Mission
+## 👨‍💻 What I Work On
 
-I am building **KAVIXO**, an AI-powered education, competitive-examination, professional-skills, and career platform for users aged 18 and above.
+- **AI & Data:** dataset preparation, data quality, annotation workflows, error analysis, AI model evaluation
+- **Generative AI:** LLM evaluation, prompt workflows, multimodal-data concepts, AI-assisted applications
+- **Computer Vision:** image/data pipelines and perception-system concepts
+- **Robotics:** autonomous systems, sensor telemetry, Raspberry Pi systems, motor-control architecture
+- **Software:** Python, TypeScript, JavaScript, HTML5, CSS3, Git/GitHub
+- **Backend & Automation:** Supabase, PostgreSQL, n8n, APIs, workflow automation
+- **Technical Operations:** Linux, troubleshooting, system administration concepts, technical support
 
-KAVIXO is being designed as one connected ecosystem across:
+## 🚀 Featured Projects
 
-- Web
-- Android
-- iOS
-- AI-assisted learning
-- Competitive examinations
-- Professional skills
-- Mock tests and performance analytics
-- Career preparation
-- Business automation
+### 1. AI Data Quality & Evaluation Pipeline
+**Python • AI/ML Data • Quality Engineering**
 
----
+A dependency-light pipeline that checks AI/ML datasets for missing fields, duplicate records, duplicate text, and label distribution, then produces an explainable quality report.
 
-## 🛰️ KAVIXO Mission Control
+[View project](./projects/ai-data-quality-pipeline)
 
-| System | Current status |
-|---|---|
-| Monorepo foundation | ✅ Completed and merged |
-| Next.js website | ✅ Foundation ready |
-| Expo Android and iOS app | ✅ Foundation ready |
-| Shared TypeScript packages | ✅ Ready |
-| Supabase foundation | ✅ Ready |
-| Adult authentication | 🚧 In development |
-| Course catalogue | ⏳ Next |
-| First paid category | ⏳ Decision pending |
-| Question bank | ⏳ Planned |
-| Mock-test engine | ⏳ Planned |
-| Progress analytics | ⏳ Planned |
-| AI Tutor | ⏳ Planned |
-| Payments | ⏳ Planned |
-| n8n automation control room | ⏳ Planned |
-| Production launch | 🔒 Not deployed |
+### 2. AI Model Evaluation Mini-Lab
+**Python • LLM Evaluation • Error Analysis**
 
-> Every feature is developed through separate branches, automated checks, human review, and verified GitHub pull requests.
+A transparent evaluation harness for comparing expected answers with model outputs using exact-match and keyword-coverage metrics, including per-example failures for review.
 
----
+[View project](./projects/ai-model-evaluation)
 
-## 🤖 Development Workflow
+### 3. Robotics Vision & Telemetry Demo
+**Python • Robotics • Autonomous Systems**
 
-```mermaid
-flowchart LR
-    A[Founder Requirement] --> B[Claude Code]
-    B --> C[Feature Branch]
-    C --> D[Lint and Type Check]
-    D --> E[Automated Tests]
-    E --> F[Production Build]
-    F --> G[Human Review]
-    G --> H[Pull Request]
-    H --> I[Approved Merge]
-```
+Hardware-independent robot decision logic connecting distance telemetry and perception state to safety and motion decisions. Designed as a foundation for Raspberry Pi-based autonomous robots.
+
+[View project](./projects/robotics-vision-demo)
+
+### 4. KAVIXO Platform
+**Next.js • TypeScript • Expo • Supabase • PostgreSQL • Automation**
+
+A product ecosystem I am building for adult learning, competitive examinations, professional skills, and career preparation.
+
+**Status:** Private development repository; selected architecture and engineering information is documented publicly in my profile.
 
 ---
 
-## 🧠 AI Automation Mission
+## 🧰 Technical Skills
 
-The long-term KAVIXO operating system will connect:
+**Languages:** Python · TypeScript · JavaScript · HTML · CSS
 
-- **Claude Code** for software development
-- **ChatGPT** for planning and quality review
-- **Gemini** for visual and media workflows
-- **n8n** for workflow orchestration
-- **Supabase** for database and authentication
-- **GitHub** for version control and approvals
-- **Vercel** for web deployment
-- **Expo** for Android and iOS delivery
+**AI / Data:** AI data preparation · Dataset quality · Data annotation concepts · LLM evaluation · Error analysis · Multimodal data concepts · Computer-vision concepts
 
-Automation handles repetitive labour.
+**Robotics:** Raspberry Pi · Autonomous robot architecture · Sensor integration concepts · Motor-control systems · CAD/3D-print workflow concepts
 
-Human approval remains mandatory for:
+**Engineering:** Git · GitHub · Linux · REST/API concepts · Testing · Debugging · Technical documentation
 
-- Educational-content publication
-- Production deployment
-- Payments and refunds
-- External marketing
-- Security-sensitive changes
-- Official examination information
+**Cloud / Backend / Automation:** Supabase · PostgreSQL · n8n · GitHub Actions · Netlify · Cloudflare
+
+**Product:** KAVIXO · AI education systems · workflow automation · technical operations
 
 ---
 
-## 🛠️ Technology Stack
+## 🔬 Engineering Approach
 
-### Product Development
+I prefer **evidence over claims**:
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-
-### Backend and Automation
-
-![Supabase](https://img.shields.io/badge/Supabase-181818?style=flat-square&logo=supabase&logoColor=3FCF8E)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-### AI Systems
-
-![Claude](https://img.shields.io/badge/Claude-Code-D97757?style=flat-square)
-![OpenAI](https://img.shields.io/badge/OpenAI-Planning%20%26%20Review-412991?style=flat-square&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-Visual%20AI-4285F4?style=flat-square&logo=google&logoColor=white)
-
----
-
-## 🎯 Product Principles
-
-- Build one verified feature at a time
-- Never publish placeholder work
-- Automate labour, not accountability
-- Keep sensitive actions human-approved
-- Protect user information
-- Use official sources for changing examination information
+- Build working prototypes
+- Keep the logic understandable
+- Validate data before using it
 - Test before merging
-- Measure progress using evidence
-- Never claim completion without verification
+- Document architecture and trade-offs
+- Separate experiments from production systems
+- Avoid claiming features that are not actually built
+- Use human review for sensitive production decisions
 
 ---
 
-## 📍 Current Development Sequence
+## 📈 Portfolio Focus
 
-```text
-Foundation
-→ Adult Authentication
-→ Neutral Course Catalogue
-→ First Paid Category
-→ Lessons and Question Bank
-→ Mock Tests
-→ Progress Analytics
-→ AI Tutor
-→ Payments
-→ Android and iOS Release
-```
+I am actively building toward roles and projects involving:
+
+**AI Data → Model Evaluation → Generative AI → Computer Vision → Multimodal AI → Robotics → Autonomous Systems → Technical Operations**
+
+Open to opportunities where I can contribute through practical engineering, data quality, evaluation, automation, and robotics work.
 
 ---
 
-## 🏢 Projects
+## 🏢 About KAVIXO
 
-### KAVIXO
+**KAVIXO** is an education and career technology project being developed under **Sunny AI Solutions**.
 
-An adult education, competitive-examination, professional-skills, and career ecosystem.
-
-- **Status:** Private development
-- **Domain:** kavixo.in
-- **Audience:** Users aged 18 and above
-- **Operator:** Sunny AI Solutions
-
-### Sunny AI Solutions
-
-AI automation, websites, applications, business workflows, digital products, and technology services.
-
----
-
-## 📊 Engineering Standards
-
-Every production feature should include:
-
-- Separate Git branch
-- Clear acceptance criteria
-- Lint checks
-- Type checking
-- Automated tests
-- Web production build
-- Mobile compatibility checks
-- Security review
-- Human approval
-- Pull request
-- Rollback instructions
-
----
-
-## 🌍 Initial Focus
-
-KAVIXO is initially focused on adult learners and job aspirants in:
-
-- Andhra Pradesh
-- Telangana
-- India
-
-The architecture is intended for future national and multilingual expansion.
-
----
-
-## 🔐 Development Integrity
-
-KAVIXO does not claim:
-
-- Fake user numbers
-- Fake revenue
-- Unbuilt features
-- Guaranteed jobs
-- Guaranteed examination ranks
-- Unattended publication of sensitive content
-
-Progress shown here represents completed and verified engineering milestones.
+The long-term vision connects learning, examination preparation, professional skills, career preparation, analytics, AI assistance, and workflow automation.
 
 ---
 
 <div align="center">
 
-### Building KAVIXO one verified milestone at a time.
-
-**Learn • Prepare • Advance**
+### Build • Test • Measure • Improve
 
 </div>
