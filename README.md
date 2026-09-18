@@ -4,7 +4,7 @@
 
 ### AI / Data / Robotics Builder • Technical Operations • Founder, KAVIXO
 
-I build practical systems at the intersection of **AI data, model evaluation, automation, software, and robotics** — with a focus on projects that can be inspected, tested, and improved.
+I build **working software and engineering systems** across AI data, model evaluation, automation, and robotics. This profile is organized around **inspectable code, tests, documented processes, and reproducible results**.
 
 [![GitHub](https://img.shields.io/badge/GitHub-sunny--kavixo-181717?style=for-the-badge&logo=github)](https://github.com/sunny-kavixo)
 [![KAVIXO](https://img.shields.io/badge/KAVIXO-Project-111111?style=for-the-badge)](https://kavixo.in)
@@ -13,96 +13,142 @@ I build practical systems at the intersection of **AI data, model evaluation, au
 
 ---
 
-## 👨‍💻 What I Work On
+## 🔎 Portfolio at a glance
 
-- **AI & Data:** dataset preparation, data quality, annotation workflows, error analysis, AI model evaluation
-- **Generative AI:** LLM evaluation, prompt workflows, multimodal-data concepts, AI-assisted applications
-- **Computer Vision:** image/data pipelines and perception-system concepts
-- **Robotics:** autonomous systems, sensor telemetry, Raspberry Pi systems, motor-control architecture
-- **Software:** Python, TypeScript, JavaScript, HTML5, CSS3, Git/GitHub
-- **Backend & Automation:** Supabase, PostgreSQL, n8n, APIs, workflow automation
-- **Technical Operations:** Linux, troubleshooting, system administration concepts, technical support
+| Area | What you can inspect |
+|---|---|
+| AI / Data | Dataset validation, missing-value checks, duplicate detection, label analysis |
+| Generative AI | Repeatable model-output evaluation and error review |
+| Robotics | Safety-first autonomous control logic and automated tests |
+| Software | Python, TypeScript, JavaScript, web application architecture |
+| Automation | GitHub Actions, n8n, Supabase and workflow design |
+| Technical Operations | Linux, debugging, system administration concepts, technical support |
 
-## 🚀 Featured Projects
+---
 
-### 1. AI Data Quality & Evaluation Pipeline
-**Python • AI/ML Data • Quality Engineering**
+## 🚀 Working Portfolio Projects
 
-A dependency-light pipeline that checks AI/ML datasets for missing fields, duplicate records, duplicate text, and label distribution, then produces an explainable quality report.
+### 01 — AI Data Quality & Evaluation Pipeline
+**Python · AI/ML Data · Dataset QA**
 
-[View project](./projects/ai-data-quality-pipeline)
+A usable dataset inspection tool that validates records, finds missing fields and duplicates, calculates label distribution, and produces a repeatable quality report.
 
-### 2. AI Model Evaluation Mini-Lab
-**Python • LLM Evaluation • Error Analysis**
+![AI dataset quality process](projects/ai-data-quality-pipeline/docs/data-quality-flow.svg)
 
-A transparent evaluation harness for comparing expected answers with model outputs using exact-match and keyword-coverage metrics, including per-example failures for review.
+**Evidence inside the repository**
+- Working Python implementation
+- Real sample dataset with deliberately detectable defects
+- Automated tests
+- Documented inspection process
+- Reproducible command-line output
 
-[View project](./projects/ai-model-evaluation)
+→ [Open the project](projects/ai-data-quality-pipeline)
 
-### 3. Robotics Vision & Telemetry Demo
-**Python • Robotics • Autonomous Systems**
+---
 
-Hardware-independent robot decision logic connecting distance telemetry and perception state to safety and motion decisions. Designed as a foundation for Raspberry Pi-based autonomous robots.
+### 02 — AI Model Evaluation Lab
+**Python · Generative AI · LLM Evaluation**
 
-[View project](./projects/robotics-vision-demo)
+A working evaluation harness that compares candidate model answers with expected answers, calculates exact-match and keyword-coverage metrics, and exposes failures for human review.
 
-### 4. KAVIXO Platform
-**Next.js • TypeScript • Expo • Supabase • PostgreSQL • Automation**
+![LLM evaluation process](projects/ai-model-evaluation/docs/evaluation-flow.svg)
 
-A product ecosystem I am building for adult learning, competitive examinations, professional skills, and career preparation.
+**Evidence inside the repository**
+- Versioned evaluation records
+- Working scoring implementation
+- Intentional failure case
+- Automated tests
+- Documented iteration process
 
-**Status:** Private development repository; selected architecture and engineering information is documented publicly in my profile.
+→ [Open the project](projects/ai-model-evaluation)
+
+---
+
+### 03 — Autonomous Wheeled Robot Control Core
+**Python · Robotics · Autonomous Systems · Raspberry Pi**
+
+A tested control layer for a Raspberry Pi-class wheeled robot. Sensor/perception state is converted into safety-aware STOP, SLOW, FORWARD, or SEARCH decisions.
+
+![Robot architecture](projects/robotics-vision-demo/docs/robot-architecture.svg)
+
+**Evidence inside the repository**
+- Working decision logic
+- Safety rules
+- Automated tests
+- Hardware/software boundary
+- Raspberry Pi integration path
+
+→ [Open the project](projects/robotics-vision-demo)
+
+---
+
+## 🧠 How I Build
+
+```text
+Problem
+  ↓
+Requirements
+  ↓
+Architecture
+  ↓
+Working implementation
+  ↓
+Test with known cases
+  ↓
+Document the result
+  ↓
+Automate repeatable checks
+  ↓
+Iterate from failures
+```
+
+I prefer **evidence over inflated skill lists**. A recruiter can open the code, run the commands, inspect the tests, and understand the engineering decisions.
 
 ---
 
 ## 🧰 Technical Skills
 
-**Languages:** Python · TypeScript · JavaScript · HTML · CSS
+**Programming:** Python · TypeScript · JavaScript · HTML5 · CSS3
 
-**AI / Data:** AI data preparation · Dataset quality · Data annotation concepts · LLM evaluation · Error analysis · Multimodal data concepts · Computer-vision concepts
+**AI / Data:** AI data preparation · Dataset QA · Data annotation concepts · LLM evaluation · Error analysis · Multimodal-data concepts · Computer-vision concepts
 
-**Robotics:** Raspberry Pi · Autonomous robot architecture · Sensor integration concepts · Motor-control systems · CAD/3D-print workflow concepts
+**Robotics:** Raspberry Pi · Autonomous-system architecture · Sensor integration · Safety logic · Motor-control architecture · CAD/3D-print workflow concepts
 
-**Engineering:** Git · GitHub · Linux · REST/API concepts · Testing · Debugging · Technical documentation
+**Engineering:** Git · GitHub · GitHub Actions · Linux · REST/API concepts · Testing · Debugging · Technical documentation
 
-**Cloud / Backend / Automation:** Supabase · PostgreSQL · n8n · GitHub Actions · Netlify · Cloudflare
+**Backend / Automation:** Supabase · PostgreSQL · n8n · Netlify · Cloudflare
 
 **Product:** KAVIXO · AI education systems · workflow automation · technical operations
 
 ---
 
-## 🔬 Engineering Approach
+## 🏢 KAVIXO
 
-I prefer **evidence over claims**:
+**KAVIXO** is my education and career technology project under **Sunny AI Solutions**.
 
-- Build working prototypes
-- Keep the logic understandable
-- Validate data before using it
-- Test before merging
-- Document architecture and trade-offs
-- Separate experiments from production systems
-- Avoid claiming features that are not actually built
-- Use human review for sensitive production decisions
+The platform architecture covers adult learning, examination preparation, professional skills, career preparation, analytics, AI assistance, and workflow automation.
+
+The main platform repository is private; this public profile contains the engineering work I can safely expose publicly.
 
 ---
 
-## 📈 Portfolio Focus
+## 🔬 Engineering Standards
 
-I am actively building toward roles and projects involving:
+- Build before claiming
+- Test before trusting
+- Document the process
+- Keep failure cases visible
+- Automate repeatable checks
+- Separate hardware-specific code from decision logic
+- Do not claim production deployment when only a prototype or component has been built
+
+---
+
+## 🎯 Career Focus
 
 **AI Data → Model Evaluation → Generative AI → Computer Vision → Multimodal AI → Robotics → Autonomous Systems → Technical Operations**
 
-Open to opportunities where I can contribute through practical engineering, data quality, evaluation, automation, and robotics work.
-
----
-
-## 🏢 About KAVIXO
-
-**KAVIXO** is an education and career technology project being developed under **Sunny AI Solutions**.
-
-The long-term vision connects learning, examination preparation, professional skills, career preparation, analytics, AI assistance, and workflow automation.
-
----
+Open to roles where practical implementation, data quality, evaluation, automation, and robotics engineering are valuable.
 
 <div align="center">
 
