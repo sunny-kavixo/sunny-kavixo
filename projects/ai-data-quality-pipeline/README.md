@@ -1,14 +1,25 @@
 # AI Data Quality & Evaluation Pipeline
 
-A **working dataset quality-control tool** for AI/ML and annotation workflows. It reads a CSV dataset, validates required fields, detects duplicate identifiers/text, measures missing values, and reports label distribution.
+A working dataset quality-control tool for AI/ML and annotation workflows.
 
-![AI dataset quality pipeline](docs/data-quality-flow.svg)
+## 🖼️ Process
+
+```mermaid
+flowchart LR
+A[Raw CSV / JSONL] --> B[Schema Validation]
+B --> C[Missing Values]
+C --> D[Duplicate Detection]
+D --> E[Label Distribution]
+E --> F[Quality Report]
+F --> G[Human Review]
+G --> H[Fix / Accept]
+```
 
 ## What problem it solves
 
-Before training, evaluation, or annotation handoff, bad records can create misleading model results. This project turns common data defects into a repeatable inspection step.
+Before training, evaluation, or annotation handoff, bad records can create misleading results. This project turns common data defects into a repeatable inspection step.
 
-## Process
+## How it works
 
 1. Load the source dataset.
 2. Validate the required schema: `id`, `text`, `label`.
@@ -16,25 +27,17 @@ Before training, evaluation, or annotation handoff, bad records can create misle
 4. Detect duplicate IDs and duplicate text.
 5. Calculate label distribution.
 6. Print a quality report.
-7. Review and fix the affected records before downstream AI work.
+7. Review and fix affected records before downstream AI work.
 
-## Run the included real test dataset
+## ▶ Run it
 
 ```bash
 python pipeline.py sample_data.csv
 ```
 
-The included dataset intentionally contains defects so the tool can be verified: a missing text value, a duplicate identifier, and duplicate text.
+Included data contains detectable defects so the pipeline can be verified.
 
-## Automated tests
-
-```bash
-python -m pytest tests/
-```
-
-The test suite verifies that known defects are detected.
-
-## Example output
+### Example result
 
 ```text
 AI DATA QUALITY REPORT
@@ -46,10 +49,18 @@ Missing fields: {'id': 0, 'text': 1, 'label': 0}
 Label distribution: {'password_reset': 2, 'delivery': 4}
 ```
 
+## 🧪 Automated tests
+
+```bash
+python -m pytest tests/
+```
+
+The tests verify that duplicate and missing-value defects are actually detected.
+
 ## Skills demonstrated
 
 **Python · AI/ML Data Preparation · Dataset QA · Annotation QA · Data Validation · Error Analysis · Automation · Testing**
 
 ## Scope
 
-This is a functioning portfolio implementation. It is not presented as a production enterprise data platform. The architecture is ready to be extended with JSONL/Parquet support, configurable schemas, severity thresholds, CI quality gates, and human review queues.
+This is a functioning portfolio implementation, not a claim of an enterprise production platform. The next extension would be JSONL/Parquet ingestion, configurable schemas, severity thresholds, CI quality gates, and human review queues.
