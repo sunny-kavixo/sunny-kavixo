@@ -125,9 +125,9 @@ The main product repository is private; this profile exposes selected engineerin
 
 ### Build · Test · Measure · Improve
 
-## 🤝 Development transparency
+## Development transparency
 
-AI tools may be used as **development assistants** for research, brainstorming, code drafting, debugging, and documentation. They are not presented as a substitute for engineering ownership.
+Development work may use modern engineering assistants for research, brainstorming, code drafting, debugging, and documentation. The important standard is that the resulting work is reviewed, tested, understood, and reproducible.
 
 For portfolio work, the intended standard is:
 
@@ -138,4 +138,4 @@ For portfolio work, the intended standard is:
 - Claims are limited to functionality that can actually be demonstrated.
 - A recruiter or engineer can inspect the source, tests, data, and workflow directly.
 
-**No AI detector can establish authorship from code alone. The strongest evidence of engineering ownership is reproducibility and the ability to explain the design, trade-offs, tests, and failures.**
+**The repository is designed to be independently verifiable through its source code, data, tests, outputs, and documented engineering decisions.**
