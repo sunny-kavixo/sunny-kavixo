@@ -1,0 +1,4 @@
+{
+  "allowed_labels": ["positive", "negative"],
+  "review_reasons": ["label_disagreement", "incomplete_annotation"]
+}
