@@ -10,8 +10,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - run: python -m pip install -r requirements-dev.txt
-      - run: python -m pytest projects/ai-data-quality-pipeline/tests projects/ai-model-evaluation/tests projects/robotics-vision-demo/tests
+
+      - name: Run project test suites
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          projects=(
+            "projects/ai-data-quality-pipeline"
+            "projects/ai-model-evaluation"
+            "projects/robotics-vision-demo"
+            "projects/annotation-qa-workbench"
+          )
+
+          for project in "${projects[@]}"; do
+            echo "=== Testing ${project} ==="
+            (
+              cd "${project}"
+              python -m pytest tests
+            )
+          done
