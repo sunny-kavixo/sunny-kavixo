@@ -47,7 +47,7 @@ Annotators: 2
 Missing labels: 1
 Invalid labels: 0
 Items with disagreement: 1
-Agreement: 0.750
+Agreement: 0.667
 Review queue: 2
 ```
 
