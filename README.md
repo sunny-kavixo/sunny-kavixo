@@ -2,156 +2,125 @@
 
 # Sandeep 👋
 
-### AI / Data / Robotics Builder • Technical Operations • Founder, KAVIXO
+### AI Data • Generative AI • Robotics • Automation • Technical Operations
 
-I build **working software and engineering systems** across AI data, model evaluation, automation, and robotics. This profile is organized around **inspectable code, tests, documented processes, and reproducible results**.
+I build **practical engineering systems** and document the problem, implementation, tests, and measurable output. This profile is a portfolio of work—not a list of unverified technology claims.
 
-[![GitHub](https://img.shields.io/badge/GitHub-sunny--kavixo-181717?style=for-the-badge&logo=github)](https://github.com/sunny-kavixo)
-[![KAVIXO](https://img.shields.io/badge/KAVIXO-Project-111111?style=for-the-badge)](https://kavixo.in)
+[GitHub](https://github.com/sunny-kavixo) · [KAVIXO](https://kavixo.in)
 
 </div>
 
 ---
 
-## 🔎 Portfolio at a glance
+## What I actually build
 
-| Area | What you can inspect |
+| Area | Evidence in this profile |
 |---|---|
-| AI / Data | Dataset validation, missing-value checks, duplicate detection, label analysis |
-| Generative AI | Repeatable model-output evaluation and error review |
-| Robotics | Safety-first autonomous control logic and automated tests |
-| Software | Python, TypeScript, JavaScript, web application architecture |
-| Automation | GitHub Actions, n8n, Supabase and workflow design |
-| Technical Operations | Linux, debugging, system administration concepts, technical support |
+| AI / Data | Dataset quality checks, annotation QA, error analysis |
+| Generative AI | Repeatable model evaluation and failure review |
+| Computer Vision | Data/pipeline foundations for vision workloads |
+| Robotics | Tested autonomy and safety-control logic |
+| Software | Python, TypeScript, JavaScript, web architecture |
+| Automation | GitHub Actions, n8n, backend workflows |
+| Systems | Linux, debugging, technical operations, Raspberry Pi |
 
 ---
 
-## 🚀 Working Portfolio Projects
+## Featured engineering work
 
-### 01 — AI Data Quality & Evaluation Pipeline
-**Python · AI/ML Data · Dataset QA**
+### 01 · AI Data Quality Pipeline
+**Python · Dataset QA · AI/ML Data**
 
-A usable dataset inspection tool that validates records, finds missing fields and duplicates, calculates label distribution, and produces a repeatable quality report.
+A command-line quality-control system that detects missing fields, duplicate records, duplicate text and label-distribution issues before data reaches a training/evaluation workflow.
 
-![AI dataset quality process](projects/ai-data-quality-pipeline/docs/data-quality-flow.svg)
+**Inside:** source data · implementation · tests · reproducible output · documented process
 
-**Evidence inside the repository**
-- Working Python implementation
-- Real sample dataset with deliberately detectable defects
-- Automated tests
-- Documented inspection process
-- Reproducible command-line output
+[Open project](projects/ai-data-quality-pipeline)
 
-→ [Open the project](projects/ai-data-quality-pipeline)
+### 02 · AI Model Evaluation Lab
+**Python · LLM Evaluation · Generative AI**
 
----
+A repeatable evaluator that compares model outputs against expected answers, calculates interpretable metrics, and exposes failed examples for review.
 
-### 02 — AI Model Evaluation Lab
-**Python · Generative AI · LLM Evaluation**
+**Inside:** evaluation dataset · scoring code · failure cases · tests · iteration workflow
 
-A working evaluation harness that compares candidate model answers with expected answers, calculates exact-match and keyword-coverage metrics, and exposes failures for human review.
+[Open project](projects/ai-model-evaluation)
 
-![LLM evaluation process](projects/ai-model-evaluation/docs/evaluation-flow.svg)
+### 03 · Autonomous Robot Control Core
+**Python · Robotics · Raspberry Pi · Autonomous Systems**
 
-**Evidence inside the repository**
-- Versioned evaluation records
-- Working scoring implementation
-- Intentional failure case
-- Automated tests
-- Documented iteration process
+A safety-first control layer that converts sensor/perception state into deterministic motion decisions and can be tested independently of motor hardware.
 
-→ [Open the project](projects/ai-model-evaluation)
+**Inside:** control logic · safety rules · tests · hardware boundary · integration path
 
----
+[Open project](projects/robotics-vision-demo)
 
-### 03 — Autonomous Wheeled Robot Control Core
-**Python · Robotics · Autonomous Systems · Raspberry Pi**
+### 04 · Annotation QA Workbench
+**Python · AI Data Operations · Quality Engineering**
 
-A tested control layer for a Raspberry Pi-class wheeled robot. Sensor/perception state is converted into safety-aware STOP, SLOW, FORWARD, or SEARCH decisions.
+A practical quality-control tool for human-labelled AI datasets. It checks annotation completeness, detects conflicting labels, measures agreement between annotators, and produces a review queue.
 
-![Robot architecture](projects/robotics-vision-demo/docs/robot-architecture.svg)
+**Why it exists:** annotation teams need to find disagreements and bad records before those labels become training data.
 
-**Evidence inside the repository**
-- Working decision logic
-- Safety rules
-- Automated tests
-- Hardware/software boundary
-- Raspberry Pi integration path
-
-→ [Open the project](projects/robotics-vision-demo)
+[Open project](projects/annotation-qa-workbench)
 
 ---
 
-## 🧠 How I Build
+## Engineering workflow
 
 ```text
-Problem
-  ↓
-Requirements
-  ↓
-Architecture
-  ↓
-Working implementation
-  ↓
-Test with known cases
-  ↓
-Document the result
-  ↓
+Real problem
+    ↓
+Define inputs + expected behaviour
+    ↓
+Build the smallest useful system
+    ↓
+Test normal + failure cases
+    ↓
+Measure output
+    ↓
+Document decisions and limitations
+    ↓
 Automate repeatable checks
-  ↓
-Iterate from failures
+    ↓
+Improve from evidence
 ```
 
-I prefer **evidence over inflated skill lists**. A recruiter can open the code, run the commands, inspect the tests, and understand the engineering decisions.
+I intentionally separate **implemented functionality** from future ideas. A recruiter should be able to inspect the repository and reproduce the important results.
 
 ---
 
-## 🧰 Technical Skills
+## Technical skills
 
 **Programming:** Python · TypeScript · JavaScript · HTML5 · CSS3
 
-**AI / Data:** AI data preparation · Dataset QA · Data annotation concepts · LLM evaluation · Error analysis · Multimodal-data concepts · Computer-vision concepts
+**AI / Data:** Dataset preparation · Data quality · Annotation QA · Error analysis · LLM evaluation · Generative AI · Multimodal data concepts · Computer-vision concepts
 
-**Robotics:** Raspberry Pi · Autonomous-system architecture · Sensor integration · Safety logic · Motor-control architecture · CAD/3D-print workflow concepts
+**Robotics:** Raspberry Pi · Autonomous systems · Sensor integration · Safety logic · Motor-control architecture · CAD/3D-print workflow concepts
 
-**Engineering:** Git · GitHub · GitHub Actions · Linux · REST/API concepts · Testing · Debugging · Technical documentation
+**Systems & Engineering:** Linux · Git · GitHub · GitHub Actions · Debugging · Testing · REST/API concepts · Technical documentation
 
-**Backend / Automation:** Supabase · PostgreSQL · n8n · Netlify · Cloudflare
+**Backend & Automation:** Supabase · PostgreSQL · n8n · Netlify · Cloudflare
 
 **Product:** KAVIXO · AI education systems · workflow automation · technical operations
 
 ---
 
-## 🏢 KAVIXO
+## KAVIXO
 
-**KAVIXO** is my education and career technology project under **Sunny AI Solutions**.
+KAVIXO is an education and career technology product being developed under Sunny AI Solutions. Its architecture covers adult learning, examination preparation, professional skills, career preparation, analytics, AI assistance and automation.
 
-The platform architecture covers adult learning, examination preparation, professional skills, career preparation, analytics, AI assistance, and workflow automation.
-
-The main platform repository is private; this public profile contains the engineering work I can safely expose publicly.
+The main product repository is private; this profile exposes selected engineering work without pretending private product functionality is public.
 
 ---
 
-## 🔬 Engineering Standards
+## Portfolio standard
 
-- Build before claiming
-- Test before trusting
-- Document the process
-- Keep failure cases visible
-- Automate repeatable checks
-- Separate hardware-specific code from decision logic
-- Do not claim production deployment when only a prototype or component has been built
+- No fake users, revenue, deployments, or performance claims.
+- No “AI demo” presented as a production system.
+- Failure cases are included where useful.
+- Tests accompany important logic.
+- Limitations are documented.
+- Future work is clearly separated from completed work.
 
----
-
-## 🎯 Career Focus
-
-**AI Data → Model Evaluation → Generative AI → Computer Vision → Multimodal AI → Robotics → Autonomous Systems → Technical Operations**
-
-Open to roles where practical implementation, data quality, evaluation, automation, and robotics engineering are valuable.
-
-<div align="center">
-
-### Build • Test • Measure • Improve
-
-</div>
+### Build · Test · Measure · Improve
