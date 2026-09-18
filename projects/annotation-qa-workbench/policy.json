@@ -1,0 +1,4 @@
+{
+  "allowed_labels": ["positive", "negative"],
+  "low_confidence_threshold": 0.60
+}
