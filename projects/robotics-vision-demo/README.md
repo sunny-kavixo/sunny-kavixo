@@ -1,28 +1,27 @@
 # Autonomous Wheeled Robot — Control Core
 
-A **working, hardware-independent autonomy layer** for a Raspberry Pi-class wheeled robot. It implements safety-first motion decisions from distance telemetry and perception state, with automated tests.
+A working, hardware-independent autonomy layer for a Raspberry Pi-class wheeled robot. It implements safety-first motion decisions from distance telemetry and perception state.
 
-![Robot control architecture](docs/robot-architecture.svg)
+## 🖼️ Control architecture
+
+```mermaid
+flowchart LR
+A[Camera / Sensors] --> B[Telemetry + Perception]
+B --> C[Safety Decision Layer]
+C --> D{Distance / Target}
+D -->|< 20 cm| E[STOP]
+D -->|20–45 cm| F[SLOW]
+D -->|Clear + target| G[FORWARD]
+D -->|Clear + no target| H[SEARCH]
+E --> I[Motor Driver]
+F --> I
+G --> I
+H --> I
+```
 
 ## Engineering problem
 
 Robot control logic should be testable before motors are connected. This project separates the decision layer from hardware drivers so safety behaviour can be verified deterministically.
-
-## Real control process
-
-```text
-Camera / sensor drivers
-        ↓
-Telemetry + perception state
-        ↓
-Safety decision layer
-        ↓
-STOP / SLOW / FORWARD / SEARCH
-        ↓
-Motor-driver adapter
-        ↓
-Physical robot
-```
 
 ## Current implementation
 
@@ -32,25 +31,27 @@ Physical robot
 - Clear path + target visible → **FORWARD**
 - Clear path + no target → **SEARCH**
 
-Run the control core:
+## ▶ Run
 
 ```bash
 python robot_logic.py
 ```
 
-Run automated tests:
+## 🧪 Automated tests
 
 ```bash
 python -m pytest tests/
 ```
 
+Tests cover obstacle stopping, slow mode, and target-search behaviour.
+
 ## Hardware integration path
 
-The decision layer is intentionally independent of GPIO and motor libraries. Real Raspberry Pi camera, ultrasonic, and motor-controller adapters can feed telemetry into the same tested decision function.
+Real Raspberry Pi camera, ultrasonic, and motor-controller adapters can feed telemetry into the same tested decision function. Hardware-specific code stays outside the decision layer.
 
 ## Honest scope
 
-This repository contains a tested control core and architecture. It does **not** claim that the physical robot is autonomously operating from this repository alone.
+This repository contains a tested control core and architecture. It does not claim that a physical robot is autonomously operating from this repository alone.
 
 ## Skills demonstrated
 
