@@ -1,0 +1,7 @@
+id,text,label
+001,Reset my account password,password_reset
+002,How do I change my password?,password_reset
+003,My order has not arrived,delivery
+004,,delivery
+004,Duplicate identifier example,delivery
+005,My order has not arrived,delivery
