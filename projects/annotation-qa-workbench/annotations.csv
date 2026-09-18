@@ -1,0 +1,9 @@
+item_id,annotator,label,confidence
+item-001,A,positive,0.95
+item-001,B,positive,0.90
+item-002,A,negative,0.88
+item-002,B,positive,0.62
+item-003,A,positive,0.91
+item-003,B,positive,0.86
+item-004,A,,0.00
+item-004,B,negative,0.81
