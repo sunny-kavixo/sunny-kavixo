@@ -27,7 +27,16 @@ A real robot-task evaluation prototype built around DROID manipulation episodes.
 
 [Open project](https://github.com/sunny-kavixo/physical-ai-robot-task-evaluator)
 
-### 02 · AI Data Quality Pipeline
+### 02 · ROS2 Autonomous Navigation & Safety Robot
+**ROS 2 Jazzy · C++ · Gazebo · Nav2 · SLAM · LiDAR**
+
+A simulation-first autonomous mobile-robot software project with a C++ safety supervisor, differential-drive URDF/Xacro model, Gazebo integration, Nav2/SLAM configuration, robot-description tests, and ROS 2 CI.
+
+**Verification boundary:** source build/tests are validated in CI; Gazebo motion, TF/odometry continuity, SLAM mapping, and autonomous Nav2 goal execution remain runtime-demo validation items.
+
+[Open project](https://github.com/sunny-kavixo/ros2-autonomous-navigation-safety-robot)
+
+### 03 · AI Data Quality Pipeline
 **Python · Dataset QA · AI/ML Data**
 
 A command-line quality-control system that detects missing fields, duplicate records, duplicate text, and label-distribution issues before data reaches a training or evaluation workflow.
@@ -36,7 +45,7 @@ A command-line quality-control system that detects missing fields, duplicate rec
 
 [Open project](projects/ai-data-quality-pipeline)
 
-### 03 · Annotation QA Workbench
+### 04 · Annotation QA Workbench
 **Python · AI Data Operations · Quality Engineering**
 
 A deterministic dataset quality gate for human-labelled AI data. It checks missing/invalid annotations, confidence values, cross-annotator disagreement, and routes questionable records to a human review queue.
@@ -45,7 +54,7 @@ A deterministic dataset quality gate for human-labelled AI data. It checks missi
 
 [Open project](projects/annotation-qa-workbench)
 
-### 04 · AI Model Evaluation Lab
+### 05 · AI Model Evaluation Lab
 **Python · LLM Evaluation · Generative AI**
 
 A repeatable evaluator that compares model outputs with expected answers, calculates deterministic metrics, and exposes failed examples for human error analysis.
@@ -54,7 +63,7 @@ A repeatable evaluator that compares model outputs with expected answers, calcul
 
 [Open project](projects/ai-model-evaluation)
 
-### 05 · Autonomous Robot Control Core
+### 06 · Autonomous Robot Control Core
 **Python · Robotics · Raspberry Pi Architecture · Safety Logic**
 
 A hardware-independent control layer that converts distance telemetry and perception state into deterministic motion decisions. Safety behavior can be tested before motor hardware is connected.
@@ -69,7 +78,7 @@ A hardware-independent control layer that converts distance telemetry and percep
 
 | Area | Portfolio evidence |
 |---|---|
-| Physical AI / Robotics | Real DROID evaluation, telemetry events, robot control and safety logic |
+| Physical AI / Robotics | Real DROID evaluation; ROS 2/C++ safety, differential-drive simulation, Nav2/SLAM source integration |
 | AI / Data | Dataset quality checks, annotation QA, disagreement review |
 | Generative AI | Deterministic model evaluation and failure analysis |
 | Computer Vision | Detection/tracking experiments and evidence-aware visual validation |
