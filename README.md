@@ -2,157 +2,105 @@
 
 # Sandeep 👋
 
-### AI Data • Physical AI • Robotics • Generative AI • Automation
+### AI Data Quality • LLM Evaluation • Data Engineering • Physical AI
 
-I build **practical engineering systems** and document the problem, implementation, tests, evidence, limitations, and measurable output. This profile is a portfolio of work—not a list of unverified technology claims.
-
-[GitHub](https://github.com/sunny-kavixo) · [KAVIXO](https://kavixo.in)
+I build practical systems around **AI data quality, evaluation, data pipelines, backend engineering, and robotics**. My portfolio focuses on working software, exercised failure cases, automated tests, and clear technical boundaries.
 
 </div>
 
 ---
 
-## Featured engineering work
+## Featured Projects
 
-### 01 · Physical AI Robot Task Evaluator
-**Python · DROID · Robot Telemetry · Computer Vision · Physical AI**
+### 🏷️ AI Annotation Quality Control System
+**Python · Streamlit · Pandas · Pillow · Docker · GitHub Actions**
 
-A real robot-task evaluation prototype built around DROID manipulation episodes. It evaluates the ordered stages **Approach → Grasp → Lift → Transport → Place → Release**, combines telemetry with visual evidence, and produces JSON/HTML reports.
+A working QC and human-review system for image annotation datasets. It validates annotation structure, bounding boxes and real image dimensions, checks label/taxonomy consistency, renders annotations for visual review, records reviewer decisions, and exports QC/review artifacts.
 
-**Verified demo:** DROID Episode 0 — `Put the marker in the pot`, 166 robot steps.
+**Product workflow:** dataset QC → issue discovery → visual review → Approve / Reject / Needs Fix → JSON/CSV reviewed outputs.
 
-**Automatic telemetry path:** Grasp, Lift, Transport, and Release are established; Approach and Place remain `UNKNOWN` without trustworthy object-relative visual evidence.
+[Open project](https://github.com/sunny-kavixo/ai-annotation-quality-control)
 
-**Validation:** full repository test suite — **31/31 tests passed** on the final demo revision.
+### 🧠 LLM Evaluation Quality Pipeline
+**Python · Pandas · SQL · Automated Evaluation · CI**
 
-[Open project](https://github.com/sunny-kavixo/physical-ai-robot-task-evaluator)
+A reproducible pipeline for evaluating response relevance, completeness, hallucination risk, safety, and overall quality. Built as a transparent evaluation baseline with tests and report-oriented analysis rather than opaque scoring claims.
 
-### 02 · ROS2 Autonomous Navigation & Safety Robot
-**ROS 2 Jazzy · C++ · Gazebo · Nav2 · SLAM · LiDAR**
+[Open project](https://github.com/sunny-kavixo/llm-evaluation-quality-pipeline)
 
-A simulation-first autonomous mobile-robot software project with a C++ safety supervisor, differential-drive URDF/Xacro model, Gazebo integration, Nav2/SLAM configuration, robot-description tests, and ROS 2 CI.
+### 📊 Analytics API Backend
+**Python · FastAPI · PostgreSQL · SQL · Docker · CI**
 
-**Verification boundary:** source build/tests are validated in CI; Gazebo motion, TF/odometry continuity, SLAM mapping, and autonomous Nav2 goal execution remain runtime-demo validation items.
+A production-style analytics REST API with request validation, SQL analytics, PostgreSQL integration, automated tests, containerization, and continuous integration.
 
-[Open project](https://github.com/sunny-kavixo/ros2-autonomous-navigation-safety-robot)
+[Open project](https://github.com/sunny-kavixo/analytics-api-backend)
 
-### 03 · AI Data Quality Pipeline
-**Python · Dataset QA · AI/ML Data**
+### 🕷️ Web Crawler Data Pipeline
+**Python · Web Crawling · Data Mining · ETL · Testing**
 
-A command-line quality-control system that detects missing fields, duplicate records, duplicate text, and label-distribution issues before data reaches a training or evaluation workflow.
+A structured web-data pipeline for extraction, processing, validation, logging, and reproducible downstream datasets.
 
-**Inside:** source data · implementation · tests · reproducible output · documented limitations
+[Open project](https://github.com/sunny-kavixo/web-crawler-data-pipeline)
 
-[Open project](projects/ai-data-quality-pipeline)
+### ⚙️ Large-Scale Data Pipeline
+**Python · Pandas · PostgreSQL · SQL · ETL**
 
-### 04 · Annotation QA Workbench
-**Python · AI Data Operations · Quality Engineering**
+A data-pipeline project focused on ingestion, cleaning, transformation, persistence, and analytical processing.
 
-A deterministic dataset quality gate for human-labelled AI data. It checks missing/invalid annotations, confidence values, cross-annotator disagreement, and routes questionable records to a human review queue.
+[Open project](https://github.com/sunny-kavixo/large-scale-data-pipeline)
 
-**Inside:** policy-driven validation · disagreement checks · review routing · tests
+### 🤖 Physical AI & Robotics
+My robotics work explores task evaluation, autonomous navigation, safety logic, telemetry, computer vision, and simulation.
 
-[Open project](projects/annotation-qa-workbench)
-
-### 05 · AI Model Evaluation Lab
-**Python · LLM Evaluation · Generative AI**
-
-A repeatable evaluator that compares model outputs with expected answers, calculates deterministic metrics, and exposes failed examples for human error analysis.
-
-**Inside:** evaluation dataset · scoring code · failure cases · tests · documented scope
-
-[Open project](projects/ai-model-evaluation)
-
-### 06 · Autonomous Robot Control Core
-**Python · Robotics · Raspberry Pi Architecture · Safety Logic**
-
-A hardware-independent control layer that converts distance telemetry and perception state into deterministic motion decisions. Safety behavior can be tested before motor hardware is connected.
-
-**Inside:** control logic · safety rules · automated tests · hardware integration boundary
-
-[Open project](projects/robotics-vision-demo)
+[Physical AI Robot Task Evaluator](https://github.com/sunny-kavixo/physical-ai-robot-task-evaluator) · [ROS2 Autonomous Navigation & Safety Robot](https://github.com/sunny-kavixo/ros2-autonomous-navigation-safety-robot)
 
 ---
 
-## What I work on
-
-| Area | Portfolio evidence |
-|---|---|
-| Physical AI / Robotics | Real DROID evaluation; ROS 2/C++ safety, differential-drive simulation, Nav2/SLAM source integration |
-| AI / Data | Dataset quality checks, annotation QA, disagreement review |
-| Generative AI | Deterministic model evaluation and failure analysis |
-| Computer Vision | Detection/tracking experiments and evidence-aware visual validation |
-| Software | Python, TypeScript, JavaScript, web architecture |
-| Automation | GitHub workflows, n8n, backend workflows |
-| Systems | Linux, debugging, technical operations, Raspberry Pi |
-
----
-
-## Engineering workflow
+## Engineering Approach
 
 ```text
-Real problem
-    ↓
-Define inputs + expected behavior
-    ↓
-Build the smallest useful system
-    ↓
-Test normal + failure cases
-    ↓
-Measure and inspect output
-    ↓
-Document decisions + limitations
-    ↓
-Improve from evidence
+Problem
+  ↓
+Working prototype
+  ↓
+Exercise with realistic data
+  ↓
+Discover assumptions / failure cases
+  ↓
+Correct implementation
+  ↓
+Regression tests
+  ↓
+CI + packaging
+  ↓
+Document evidence and limitations
 ```
 
-I intentionally separate **implemented functionality** from future ideas. A reviewer should be able to inspect the repository and understand what is automatic, what was manually validated, and what remains experimental.
+I prefer a few substantial, inspectable projects over many shallow repositories. Development history is kept visible where useful so reviewers can see how assumptions were tested and corrected.
 
 ---
 
-## Technical skills
+## Technical Focus
 
-**Programming:** Python · TypeScript · JavaScript · HTML5 · CSS3
+**AI Data & Evaluation:** annotation QA · dataset validation · multimodal data · LLM evaluation · error analysis · human review workflows
 
-**AI / Data:** Dataset preparation · Data quality · Annotation QA · Error analysis · LLM evaluation · Generative AI · Multimodal data concepts
+**Data Engineering:** Python · Pandas · SQL · PostgreSQL · ETL · data cleaning · web/data extraction
 
-**Physical AI / Robotics:** Robot telemetry · Task-stage evaluation · Raspberry Pi · Autonomous systems · Sensor integration · Safety logic · Motor-control architecture
+**Backend & Automation:** FastAPI · REST APIs · Docker · GitHub Actions · n8n
 
-**Computer Vision:** Detection/tracking foundations · Temporal visual analysis · Evidence validation
+**Physical AI & Robotics:** ROS 2 · robot telemetry · safety logic · computer vision foundations · Raspberry Pi
 
-**Systems & Engineering:** Linux · Git · GitHub · Testing · Debugging · REST/API concepts · Technical documentation
-
-**Backend & Automation:** Supabase · PostgreSQL · n8n · Netlify · Cloudflare
+**Systems:** Linux · Git · GitHub · testing · debugging · technical documentation
 
 ---
 
-## KAVIXO
+## Portfolio Standard
 
-KAVIXO is an education and career technology product being developed under Sunny AI Solutions. The main product repository is private; this public profile exposes selected engineering work without presenting private functionality as publicly reproducible.
+- Working implementation over feature claims
+- Automated tests for important deterministic behavior
+- Realistic failure cases and regression coverage
+- Clear separation between implemented functionality and future work
+- No fabricated users, revenue, accuracy, deployment, or performance metrics
+- Explicit limitations when evidence is incomplete
 
----
-
-## Portfolio standard
-
-- No fake users, revenue, deployments, accuracy, or performance claims.
-- No experimental AI output presented as production capability.
-- Tests accompany important deterministic logic.
-- Failure cases and limitations are documented where useful.
-- Human validation and automatic results are clearly separated.
-- Future work is separated from completed work.
-
-### Build · Test · Measure · Improve
-
-## Development transparency
-
-Development may use modern engineering assistants for research, brainstorming, code drafting, debugging, and documentation. The standard is that resulting work is reviewed, tested, understood, and represented accurately.
-
-For portfolio work:
-
-- requirements are defined before implementation;
-- code is reviewed and tested rather than accepted blindly;
-- important behavior uses reproducible inputs and tests;
-- failed experiments and limitations are documented;
-- claims are limited to functionality that can actually be demonstrated.
-
-**The goal of this profile is independently inspectable engineering work, not inflated claims.**
+### Build → Exercise → Discover → Fix → Test → Document
