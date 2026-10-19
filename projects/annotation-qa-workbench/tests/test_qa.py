@@ -1,8 +1,10 @@
 from qa import analyze
+from pathlib import Path
 
 def test_real_dataset_has_quality_findings():
     import csv
-    with open("../annotations.csv", newline="", encoding="utf-8") as f:
+    csv_path = Path(__file__).resolve().parents[1] / "annotations.csv"
+    with csv_path.open(newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
     report = analyze(rows)
     reasons = {x["reason"] for x in report["findings"]}
