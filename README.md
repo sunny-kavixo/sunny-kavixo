@@ -1,118 +1,77 @@
 <div align="center">
 
-# Putluru Sandeep · Sunny · @sunny-kavixo
+# Putluru Sandeep (Sunny)
 
-### AI Engineering | Data Quality & LLM Evaluation | Python & Backend Development | Open-Source Contributor
+**AI Engineering · LLM Evaluation · Backend & Data Engineering · Open-Source Contributions**
 
-I build practical engineering systems focused on AI data quality, model evaluation, automation, backend development, and reproducible software testing. My portfolio focuses on working software, exercised failure cases, automated tests, and clear technical boundaries.
+I build and test AI data-quality systems, developer tools, accessible software and reproducible backend pipelines. I emphasize real failure cases, regression tests, practical applications, and clear evidence of what works.
+
+[GitHub](https://github.com/sunny-kavixo) · [LinkedIn](https://www.linkedin.com/in/sandeep-sunny-99473b19a/) · [KAVIXO](https://kavixo.in)
 
 </div>
 
 ---
 
-## Verified Work and Contributions
+## Open-source contributions — independently verifiable
 
-- [**AI Annotation Quality Control**](https://github.com/sunny-kavixo/ai-annotation-quality-control) — AI data quality engineering project.
-- [**LLM Evaluation Quality Pipeline**](https://github.com/sunny-kavixo/llm-evaluation-quality-pipeline) — LLM evaluation and quality-assessment project.
-- [**SwitchPath**](https://github.com/sunny-kavixo/switchpath) — Accessibility testing proof of concept with Playwright regression evidence.
-- **Docling Pipelines** — three merged open-source PRs: [#237](https://github.com/docling-project/docling-pipelines/pull/237), [#244](https://github.com/docling-project/docling-pipelines/pull/244), and [#245](https://github.com/docling-project/docling-pipelines/pull/245).
-- **Principia Artificialis** — [open PR #37](https://github.com/holland202/principia-artificialis/pull/37) proposes an experimental research protocol. It is pending maintainer review; it is not preregistered, approved, or a confirmed research result.
+### Merged upstream contributions
 
-I am interested in AI Engineering, AI Data Operations, Research Engineering, developer tools, and technical problem-solving.
+| Project | Contribution | Status |
+| --- | --- | --- |
+| [Docling Pipelines](https://github.com/docling-project/docling-pipelines) (Docling ecosystem) | [#237 — align sample-flow README with real files](https://github.com/docling-project/docling-pipelines/pull/237) | **Merged** |
+| [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#244 — correct filesystem ingest configuration example](https://github.com/docling-project/docling-pipelines/pull/244) | **Merged** |
+| [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#245 — lazy logging formatting in language-detection adapters](https://github.com/docling-project/docling-pipelines/pull/245) | **Merged** |
+| [TDK CLI](https://github.com/tdk-landscape/tdk-cli-core) | [#1015 — consistent TypeScript, Python and shell test targets](https://github.com/tdk-landscape/tdk-cli-core/pull/1015) | **Merged** |
 
----
+### Submitted / under review — not claimed as merged
 
-## Featured Projects
-
-### 🏷️ AI Annotation Quality Control System
-**Python · Streamlit · Pandas · Pillow · Docker · GitHub Actions**
-
-A working QC and human-review system for image annotation datasets. It validates annotation structure, bounding boxes and real image dimensions, checks label/taxonomy consistency, renders annotations for visual review, records reviewer decisions, and exports QC/review artifacts.
-
-**Product workflow:** dataset QC → issue discovery → visual review → Approve / Reject / Needs Fix → JSON/CSV reviewed outputs.
-
-[Open project](https://github.com/sunny-kavixo/ai-annotation-quality-control)
-
-### 🧠 LLM Evaluation Quality Pipeline
-**Python · Pandas · SQL · Automated Evaluation · CI**
-
-A reproducible pipeline for evaluating response relevance, completeness, hallucination risk, safety, and overall quality. Built as a transparent evaluation baseline with tests and report-oriented analysis rather than opaque scoring claims.
-
-[Open project](https://github.com/sunny-kavixo/llm-evaluation-quality-pipeline)
-
-### 📊 Analytics API Backend
-**Python · FastAPI · PostgreSQL · SQL · Docker · CI**
-
-A production-style analytics REST API with request validation, SQL analytics, PostgreSQL integration, automated tests, containerization, and continuous integration.
-
-[Open project](https://github.com/sunny-kavixo/analytics-api-backend)
-
-### 🕷️ Web Crawler Data Pipeline
-**Python · Web Crawling · Data Mining · ETL · Testing**
-
-A structured web-data pipeline for extraction, processing, validation, logging, and reproducible downstream datasets.
-
-[Open project](https://github.com/sunny-kavixo/web-crawler-data-pipeline)
-
-### ⚙️ Large-Scale Data Pipeline
-**Python · Pandas · PostgreSQL · SQL · ETL**
-
-A data-pipeline project focused on ingestion, cleaning, transformation, persistence, and analytical processing.
-
-[Open project](https://github.com/sunny-kavixo/large-scale-data-pipeline)
-
-### 🤖 Physical AI & Robotics
-My robotics work explores task evaluation, autonomous navigation, safety logic, telemetry, computer vision, and simulation.
-
-[Physical AI Robot Task Evaluator](https://github.com/sunny-kavixo/physical-ai-robot-task-evaluator) · [ROS2 Autonomous Navigation & Safety Robot](https://github.com/sunny-kavixo/ros2-autonomous-navigation-safety-robot)
+- **[Microsoft Amplifier Agent — PR #205](https://github.com/microsoft/amplifier-agent/pull/205):** proposed prompt-cache prefix stability fix for skill-hook context. **Open / pending review**; not a Microsoft employment or accepted-contribution claim.
+- **[Principia Artificialis — PR #37](https://github.com/holland202/principia-artificialis/pull/37):** draft Evidence-Gated Residual Representation (EGRR) preregistration research protocol. **Open proposal, not approved or experimentally confirmed.**
+- **[Docling Pipelines — Issue #306](https://github.com/docling-project/docling-pipelines/issues/306):** investigating a package operator-loading regression; a local fix and tests have been reported, but no upstream PR or merge is claimed.
 
 ---
 
-## Engineering Approach
+## Selected engineering projects
 
-```text
-Problem
-  ↓
-Working prototype
-  ↓
-Exercise with realistic data
-  ↓
-Discover assumptions / failure cases
-  ↓
-Correct implementation
-  ↓
-Regression tests
-  ↓
-CI + packaging
-  ↓
-Document evidence and limitations
-```
+| Project | Engineering focus |
+| --- | --- |
+| **[SwitchPath](https://github.com/sunny-kavixo/switchpath)** | Compare mouse and keyboard accessibility journeys, detect reproducible failures and generate Playwright regression tests |
+| **[AI Annotation Quality Control](https://github.com/sunny-kavixo/ai-annotation-quality-control)** | Image annotation validation, taxonomy/bounding-box checks, human review and exported QC evidence |
+| **[LLM Evaluation Quality Pipeline](https://github.com/sunny-kavixo/llm-evaluation-quality-pipeline)** | Transparent response-quality assessment, input validation and reproducible evaluation workflow |
+| **[Analytics API Backend](https://github.com/sunny-kavixo/analytics-api-backend)** | FastAPI, PostgreSQL, validation, testing, Docker and CI |
+| **[KAVIXO Platform](https://github.com/sunny-kavixo/kavixo-platform)** | Education and career-platform engineering; project repository and product development |
+| **[Large-Scale Data Pipeline](https://github.com/sunny-kavixo/large-scale-data-pipeline)** | ETL, data cleaning, PostgreSQL and reproducible analytics workflows |
+| **[Web Crawler Data Pipeline](https://github.com/sunny-kavixo/web-crawler-data-pipeline)** | Bounded extraction, validation, logging and structured downstream datasets |
 
-I prefer a few substantial, inspectable projects over many shallow repositories. Development history is kept visible where useful so reviewers can see how assumptions were tested and corrected.
+**Robotics:** [Physical AI Robot Task Evaluator](https://github.com/sunny-kavixo/physical-ai-robot-task-evaluator) · [ROS 2 Navigation & Safety Robot](https://github.com/sunny-kavixo/ros2-autonomous-navigation-safety-robot)
 
 ---
 
-## Technical Focus
+## Active independent research — ongoing, not completed claims
 
-**AI Data & Evaluation:** annotation QA · dataset validation · multimodal data · LLM evaluation · error analysis · human review workflows
+- **Sunny Local AI / Sunny AI:** local-first desktop agent research on Apple Silicon, evidence-driven reasoning, tool execution and governed actions. Working features and planned capabilities require separate verification; no AGI claim.
+- **LittleBit AI Compression Research:** experimental low-bit representations and compressed-domain inference targeting 20–30 GB-class open-weight models under a preferred 6 GB / maximum 8 GB *additional* RAM budget. Small synthetic matrix experiments exist; **the full target has not been demonstrated**. Storage projections are not measured packed-model results.
+- **Principia Artificialis / EGRR:** research methodology and reproducibility proposals, with acceptance contingent on independent review and tests.
 
-**Data Engineering:** Python · Pandas · SQL · PostgreSQL · ETL · data cleaning · web/data extraction
-
-**Backend & Automation:** FastAPI · REST APIs · Docker · GitHub Actions · n8n
-
-**Physical AI & Robotics:** ROS 2 · robot telemetry · safety logic · computer vision foundations · Raspberry Pi
-
-**Systems:** Linux · Git · GitHub · testing · debugging · technical documentation
+Some research artifacts are local or in development; links are provided only when a corresponding public repository or upstream PR is available.
 
 ---
 
-## Portfolio Standard
+## Technical focus
 
-- Working implementation over feature claims
-- Automated tests for important deterministic behavior
-- Realistic failure cases and regression coverage
-- Clear separation between implemented functionality and future work
-- No fabricated users, revenue, accuracy, deployment, or performance metrics
-- Explicit limitations when evidence is incomplete
+**AI & data:** LLM evaluation · annotation quality assurance · dataset validation · human-in-the-loop review · Python · Pandas · SQL
 
-### Build → Exercise → Discover → Fix → Test → Document
+**Engineering:** FastAPI · PostgreSQL · REST APIs · Docker · GitHub Actions · Playwright · reproducible tests · Git/GitHub
+
+**Systems & research:** Apple Silicon · local inference · quantization research · evidence-led debugging · Linux · robotics/ROS 2 foundations
+
+---
+
+## How I work
+
+`Reproduce → Explain root cause → Implement focused change → Add regression tests → Validate → Document limitations`
+
+I distinguish **merged contributions**, **open proposals**, **tested implementations**, **research hypotheses**, and **future roadmap items**. I do not present unverified accuracy, model-compression performance or project completion as achieved results.
+
+**Open to:** AI Engineering · AI Data Operations · Research Engineering · Developer Tools · Backend Engineering.
+
