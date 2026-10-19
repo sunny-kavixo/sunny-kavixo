@@ -1,12 +1,24 @@
 <div align="center">
 
-# Sandeep 👋
+# Putluru Sandeep · Sunny · @sunny-kavixo
 
-### AI Data Quality • LLM Evaluation • Data Engineering • Physical AI
+### AI Engineering | Data Quality & LLM Evaluation | Python & Backend Development | Open-Source Contributor
 
-I build practical systems around **AI data quality, evaluation, data pipelines, backend engineering, and robotics**. My portfolio focuses on working software, exercised failure cases, automated tests, and clear technical boundaries.
+I build practical engineering systems focused on AI data quality, model evaluation, automation, backend development, and reproducible software testing. My portfolio focuses on working software, exercised failure cases, automated tests, and clear technical boundaries.
 
 </div>
+
+---
+
+## Verified Work and Contributions
+
+- [**AI Annotation Quality Control**](https://github.com/sunny-kavixo/ai-annotation-quality-control) — AI data quality engineering project.
+- [**LLM Evaluation Quality Pipeline**](https://github.com/sunny-kavixo/llm-evaluation-quality-pipeline) — LLM evaluation and quality-assessment project.
+- [**SwitchPath**](https://github.com/sunny-kavixo/switchpath) — Accessibility testing proof of concept with Playwright regression evidence.
+- **Docling Pipelines** — three merged open-source PRs: [#237](https://github.com/docling-project/docling-pipelines/pull/237), [#244](https://github.com/docling-project/docling-pipelines/pull/244), and [#245](https://github.com/docling-project/docling-pipelines/pull/245).
+- **Principia Artificialis** — [open PR #37](https://github.com/holland202/principia-artificialis/pull/37) proposes an experimental research protocol. It is pending maintainer review; it is not preregistered, approved, or a confirmed research result.
+
+I am interested in AI Engineering, AI Data Operations, Research Engineering, developer tools, and technical problem-solving.
 
 ---
 
