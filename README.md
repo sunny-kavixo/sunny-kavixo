@@ -6,7 +6,7 @@
 
 I build AI data-quality systems, developer tools, accessible software, and reproducible engineering workflows. I focus on real failure cases, root causes, regression tests, and clear evidence of what works. Sunny is my nickname. My GitHub handle is **[sunny-kavixo](https://github.com/sunny-kavixo)**.
 
-[GitHub](https://github.com/sunny-kavixo) · [LinkedIn](https://www.linkedin.com/in/sandeep-sunny-99473b19a/) · [KAVIXO product](https://kavixo.in)
+[GitHub](https://github.com/sunny-kavixo) · [LinkedIn](https://www.linkedin.com/in/sandeep-sunny-99473b19a/) · [KAVIXO product](https://kavixo.in) · [Instagram (Sunny)](https://www.instagram.com/___sandeep06/)
 
 </div>
 
