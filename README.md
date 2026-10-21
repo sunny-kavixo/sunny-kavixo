@@ -21,13 +21,13 @@ I build AI data-quality systems, developer tools, accessible software, and repro
 | [Docling Pipelines](https://github.com/docling-project/docling-pipelines) (Docling ecosystem) | [#237 — align sample-flow README with real files](https://github.com/docling-project/docling-pipelines/pull/237) | **Merged** |
 | [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#244 — correct filesystem ingest configuration example](https://github.com/docling-project/docling-pipelines/pull/244) | **Merged** |
 | [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#245 — lazy logging formatting in language-detection adapters](https://github.com/docling-project/docling-pipelines/pull/245) | **Merged** |
+| [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#327 — fix loading of module-inspected package operators (closes #306)](https://github.com/docling-project/docling-pipelines/pull/327) | **Merged** |
 | [TDK CLI](https://github.com/tdk-landscape/tdk-cli-core) | [#1015 — consistent TypeScript, Python and shell test targets](https://github.com/tdk-landscape/tdk-cli-core/pull/1015) | **Merged** |
 | [Solphivia Avatar AI](https://github.com/Trikto7e8/solphivia-avatar-ai) | [#8 — Android release-readiness review and migration-plan documentation](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/8) | **Merged; documentation** |
 
 ### Submitted / under review — not claimed as merged
 
-- **[Microsoft Amplifier Agent — PR #205](https://github.com/microsoft/amplifier-agent/pull/205):** proposed prompt-cache prefix stability fix for skill-hook context. **Open / pending review**; not a Microsoft employment or accepted-contribution claim.
-- **[Docling Pipelines — PR #327](https://github.com/docling-project/docling-pipelines/pull/327):** proposed fix for loading package operators discovered through module inspection. **Open / pending review**; [issue #306](https://github.com/docling-project/docling-pipelines/issues/306) provides the problem context. Scoped verification is described in the PR; the full repository suite is not claimed as passing.
+- **[Microsoft Amplifier Agent — PR #205](https://github.com/microsoft/amplifier-agent/pull/205):** prompt-cache prefix stability fix for skill-hook context. **Approved by a maintainer; open, awaiting merge.** Not a Microsoft employment or accepted-contribution claim.
 - **[Principia Artificialis — PR #37](https://github.com/holland202/principia-artificialis/pull/37):** draft Evidence-Gated Residual Representation (EGRR) preregistration research protocol. **Open proposal, not approved or experimentally confirmed.**
 
 ---
