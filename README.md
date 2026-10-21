@@ -4,7 +4,7 @@
 
 **Open-Source Contributor | AI Systems Developer | Independent Researcher**
 
-I build AI data-quality systems, developer tools, accessible software, and reproducible engineering workflows. I focus on real failure cases, root causes, regression tests, and clear evidence of what works. Sunny is my nickname.
+I build AI data-quality systems, developer tools, accessible software, and reproducible engineering workflows. I focus on real failure cases, root causes, regression tests, and clear evidence of what works. Sunny is my nickname. My GitHub handle is **[sunny-kavixo](https://github.com/sunny-kavixo)**.
 
 [GitHub](https://github.com/sunny-kavixo) · [LinkedIn](https://www.linkedin.com/in/sandeep-sunny-99473b19a/) · [KAVIXO product](https://kavixo.in)
 
@@ -22,13 +22,17 @@ I build AI data-quality systems, developer tools, accessible software, and repro
 | [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#244 — correct filesystem ingest configuration example](https://github.com/docling-project/docling-pipelines/pull/244) | **Merged** |
 | [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#245 — lazy logging formatting in language-detection adapters](https://github.com/docling-project/docling-pipelines/pull/245) | **Merged** |
 | [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#327 — fix loading of module-inspected package operators (closes #306)](https://github.com/docling-project/docling-pipelines/pull/327) | **Merged** |
-| [TDK CLI](https://github.com/tdk-landscape/tdk-cli-core) | [#1015 — consistent TypeScript, Python and shell test targets](https://github.com/tdk-landscape/tdk-cli-core/pull/1015) | **Merged** |
+| [Flisk / TDK CLI](https://github.com/flisk-sh/flisk) | [#1015 — consistent TypeScript, Python and shell test targets](https://github.com/flisk-sh/flisk/pull/1015) | **Merged** |
 | [Solphivia Avatar AI](https://github.com/Trikto7e8/solphivia-avatar-ai) | [#8 — Android release-readiness review and migration-plan documentation](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/8) | **Merged; documentation** |
 
 ### Submitted / under review — not claimed as merged
 
 - **[Microsoft Amplifier Agent — PR #205](https://github.com/microsoft/amplifier-agent/pull/205):** prompt-cache prefix stability fix for skill-hook context. **Approved by a maintainer; open, awaiting merge.** Not a Microsoft employment or accepted-contribution claim.
+- **[Google OSV-SCALIBR — PR #2500](https://github.com/google/osv-scalibr/pull/2500):** JavaScript package contributor-handling fix. **Open; under review.**
+- **[Sovereign Veritas — PR #86](https://github.com/holland202/sovereign-veritas/pull/86):** independent Python permission-gate proposal. **Open GitHub draft.**
 - **[Principia Artificialis — PR #37](https://github.com/holland202/principia-artificialis/pull/37):** draft Evidence-Gated Residual Representation (EGRR) preregistration research protocol. **Open proposal, not approved or experimentally confirmed.**
+
+**Closed without merge:** [Ruff #29544](https://github.com/astral-sh/ruff/pull/29544) (doctest-output section detection) and [Hugging Face Hub #5218](https://github.com/huggingface/huggingface_hub/pull/5218). These are submissions, not accepted contributions.
 
 ---
 
@@ -36,6 +40,7 @@ I build AI data-quality systems, developer tools, accessible software, and repro
 
 | Project | Engineering focus |
 | --- | --- |
+| **[Sunny DevFix](https://github.com/sunny-kavixo/Sunny-DevFix)** | Local-first Python debugging prototype with deterministic traceback/source analysis, conservative diffs and opt-in sandbox evidence; active prototype |
 | **[SwitchPath](https://github.com/sunny-kavixo/switchpath)** | Compare mouse and keyboard accessibility journeys, detect reproducible failures and generate Playwright regression tests |
 | **[AI Annotation Quality Control](https://github.com/sunny-kavixo/ai-annotation-quality-control)** | Image annotation validation, taxonomy/bounding-box checks, human review and exported QC evidence |
 | **[LLM Evaluation Quality Pipeline](https://github.com/sunny-kavixo/llm-evaluation-quality-pipeline)** | Transparent response-quality assessment, input validation and reproducible evaluation workflow |
@@ -55,6 +60,12 @@ I build AI data-quality systems, developer tools, accessible software, and repro
 - **Principia Artificialis / EGRR:** research methodology and reproducibility proposals, with acceptance contingent on independent review and tests.
 
 Some research artifacts are local or in development; links are provided only when a corresponding public repository or upstream PR is available.
+
+---
+
+## Certification
+
+[Artificial Intelligence Fundamentals — IBM SkillsBuild](https://www.credly.com/badges/d341b8d6-c641-45fa-9e59-11af3bbfbd9a/linked_in_profile), issued 13 September 2026 to Putluru Sandeep. This is a learning credential, not an employment or open-source contribution claim.
 
 ---
 
