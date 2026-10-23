@@ -14,7 +14,7 @@ I build AI data-quality systems, developer tools, accessible software, and repro
 
 ## Open-source contributions — independently verifiable
 
-### Merged upstream contributions
+### Merged upstream contributions (11 verified PRs)
 
 | Project | Contribution | Status |
 | --- | --- | --- |
@@ -23,11 +23,19 @@ I build AI data-quality systems, developer tools, accessible software, and repro
 | [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#245 — lazy logging formatting in language-detection adapters](https://github.com/docling-project/docling-pipelines/pull/245) | **Merged** |
 | [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#327 — fix loading of module-inspected package operators (closes #306)](https://github.com/docling-project/docling-pipelines/pull/327) | **Merged** |
 | [Flisk / TDK CLI](https://github.com/flisk-sh/flisk) | [#1015 — consistent TypeScript, Python and shell test targets](https://github.com/flisk-sh/flisk/pull/1015) | **Merged** |
+| [Flisk](https://github.com/flisk-sh/flisk) | [#1905 — fix ShellCheck warnings across shell scripts](https://github.com/flisk-sh/flisk/pull/1905) | **Merged** |
 | [Solphivia Avatar AI](https://github.com/Trikto7e8/solphivia-avatar-ai) | [#8 — Android release-readiness review and migration-plan documentation](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/8) | **Merged; documentation** |
+| [Solphivia Avatar AI](https://github.com/Trikto7e8/solphivia-avatar-ai) | [#9 — model-provider interface design proposal](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/9) | **Merged; design documentation** |
+| [Solphivia Avatar AI](https://github.com/Trikto7e8/solphivia-avatar-ai) | [#10 — iOS SwiftUI feasibility study](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/10) | **Merged; documentation** |
+| [Solphivia Avatar AI](https://github.com/Trikto7e8/solphivia-avatar-ai) | [#11 — reproducible Android build baseline](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/11) | **Merged; documentation** |
+| [Solphivia Avatar AI](https://github.com/Trikto7e8/solphivia-avatar-ai) | [#12 — scoped Android API 36 migration plan](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/12) | **Merged; documentation** |
 
 ### Submitted / under review — not claimed as merged
 
 - **[Microsoft Amplifier Agent — PR #205](https://github.com/microsoft/amplifier-agent/pull/205):** prompt-cache prefix stability fix for skill-hook context. **Approved by a maintainer; open, awaiting merge.** Not a Microsoft employment or accepted-contribution claim.
+- **[IBM ContextForge — backend PR #7326](https://github.com/IBM/mcp-context-forge/pull/7326):** expose the observability-enabled flag in metrics API responses. **Open; not merged.**
+- **[ContextForge Web UI — PR #203](https://github.com/contextforge-org/contextforge-web-ui/pull/203):** distinguish disabled observability from enabled-but-no-traffic dashboard states; linked to the backend change. **Open; not merged.**
+- **[Solphivia Avatar AI — PR #16](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/16):** Stage A Kotlin provider architecture, consent/cancellation boundaries and JVM regression tests. **Open; maintainer review pending.** Local JVM tests and Android build/lint were reported passing; connected-device and authenticated runtime validation remain outstanding.
 - **[Google OSV-SCALIBR — PR #2500](https://github.com/google/osv-scalibr/pull/2500):** JavaScript package contributor-handling fix. **Open; under review.**
 - **[Sovereign Veritas — PR #86](https://github.com/holland202/sovereign-veritas/pull/86):** independent Python permission-gate proposal. **Open GitHub draft.**
 - **[Principia Artificialis — PR #37](https://github.com/holland202/principia-artificialis/pull/37):** draft Evidence-Gated Residual Representation (EGRR) preregistration research protocol. **Open proposal, not approved or experimentally confirmed.**
@@ -38,8 +46,11 @@ I build AI data-quality systems, developer tools, accessible software, and repro
 
 ## Selected engineering projects
 
+These are independently developed repositories and prototypes; inclusion here does not imply production deployment or third-party validation.
+
 | Project | Engineering focus |
 | --- | --- |
+| **[LittleLess AI](https://github.com/sunny-kavixo/LittleLess-AI)** | Experimental low-bit storage and native file-backed streaming inference at toy scale; reproducibility limitations and negative results are documented |
 | **[Sunny DevFix](https://github.com/sunny-kavixo/Sunny-DevFix)** | Local-first Python debugging prototype with deterministic traceback/source analysis, conservative diffs and opt-in sandbox evidence; active prototype |
 | **[SwitchPath](https://github.com/sunny-kavixo/switchpath)** | Compare mouse and keyboard accessibility journeys, detect reproducible failures and generate Playwright regression tests |
 | **[AI Annotation Quality Control](https://github.com/sunny-kavixo/ai-annotation-quality-control)** | Image annotation validation, taxonomy/bounding-box checks, human review and exported QC evidence |
@@ -49,7 +60,7 @@ I build AI data-quality systems, developer tools, accessible software, and repro
 | **[Large-Scale Data Pipeline](https://github.com/sunny-kavixo/large-scale-data-pipeline)** | ETL, data cleaning, PostgreSQL and reproducible analytics workflows |
 | **[Web Crawler Data Pipeline](https://github.com/sunny-kavixo/web-crawler-data-pipeline)** | Bounded extraction, validation, logging and structured downstream datasets |
 
-**Additional robotics work:** [ROS 2 Navigation & Safety Robot](https://github.com/sunny-kavixo/ros2-autonomous-navigation-safety-robot) — source and CI checks are public; end-to-end Gazebo/Nav2 runtime validation remains pending.
+**[ROS 2 Navigation & Safety Robot](https://github.com/sunny-kavixo/ros2-autonomous-navigation-safety-robot):** source and CI checks are public; end-to-end Gazebo/Nav2 runtime validation remains pending.
 
 ---
 
@@ -76,6 +87,14 @@ Some research artifacts are local or in development; links are provided only whe
 **Engineering:** FastAPI · PostgreSQL · REST APIs · Docker · GitHub Actions · Playwright · reproducible tests · Git/GitHub
 
 **Systems & research:** Apple Silicon · local inference · quantization research · evidence-led debugging · Linux · robotics/ROS 2 foundations
+
+---
+
+## Current contribution and research status
+
+- **Merged upstream:** 11 individually verified PRs across Docling Pipelines, Flisk and Solphivia Avatar AI (including design/documentation contributions).
+- **Under review:** Microsoft Amplifier, IBM ContextForge backend, ContextForge Web UI, Google OSV-SCALIBR, Solphivia Stage A and research proposals. Open PRs are **not** counted as accepted contributions.
+- **Research limits:** LittleLess AI's large-model RAM/quality targets and Sunny Local AI's broader autonomous-agent goals remain ongoing research, not demonstrated AGI or verified large-model breakthroughs.
 
 ---
 
