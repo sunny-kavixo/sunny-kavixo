@@ -48,4 +48,4 @@ I distinguish prototypes from production systems, proposals from merged contribu
 
 ---
 
-<sub>For a more detailed record of upstream PRs, limitations, certifications, and research evidence, see the [archived full profile](https://github.com/sunny-kavixo/sunny-kavixo/blob/main/docs/PROFILE_EVIDENCE_ARCHIVE_2026-10-26.md) (preserved in this redesign).</sub>
+<sub>For a more detailed record of upstream PRs, limitations, certifications, and research evidence, see the [archived full profile](docs/PROFILE_EVIDENCE_ARCHIVE_2026-10-26.md) (preserved in this redesign).</sub>
