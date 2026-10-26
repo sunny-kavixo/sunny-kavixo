@@ -14,10 +14,16 @@ I build AI data-quality systems, developer tools, accessible software, and repro
 
 ## Open-source contributions — independently verifiable
 
-### Merged upstream contributions (11 verified PRs)
+### Selected merged upstream contributions (verified on 26 October 2026)
 
 | Project | Contribution | Status |
 | --- | --- | --- |
+| [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | [#9695 — correct Azure Content Understanding SDK minimum version](https://github.com/microsoft/agent-framework/pull/9695) | **Merged; Python dependency compatibility** |
+| [Microsoft Windows Container Tools](https://github.com/microsoft/windows-container-tools) | [#240 — deterministic EventMonitor replay shutdown regression test](https://github.com/microsoft/windows-container-tools/pull/240) | **Merged; Windows/C++ regression coverage** |
+| [Squidbrake](https://github.com/batrapulkit/squidbrake) | [#136 — bound traction queries and keep SQLite operations off FastAPI event loop](https://github.com/batrapulkit/squidbrake/pull/136) | **Merged; Python/FastAPI/SQLite; hacktoberfest-accepted** |
+| [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#415 — preserve global config CLI options](https://github.com/docling-project/docling-pipelines/pull/415) | **Merged; CLI regression fix** |
+| [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#416 — handle a missing content column in chunker](https://github.com/docling-project/docling-pipelines/pull/416) | **Merged; data pipeline fix** |
+| [Sovereign Veritas](https://github.com/holland202/sovereign-veritas) | [#86 — independent Python permission-gate implementation and verification](https://github.com/holland202/sovereign-veritas/pull/86) | **Merged; security-boundary engineering** |
 | [Docling Pipelines](https://github.com/docling-project/docling-pipelines) (Docling ecosystem) | [#237 — align sample-flow README with real files](https://github.com/docling-project/docling-pipelines/pull/237) | **Merged** |
 | [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#244 — correct filesystem ingest configuration example](https://github.com/docling-project/docling-pipelines/pull/244) | **Merged** |
 | [Docling Pipelines](https://github.com/docling-project/docling-pipelines) | [#245 — lazy logging formatting in language-detection adapters](https://github.com/docling-project/docling-pipelines/pull/245) | **Merged** |
@@ -29,18 +35,30 @@ I build AI data-quality systems, developer tools, accessible software, and repro
 | [Solphivia Avatar AI](https://github.com/Trikto7e8/solphivia-avatar-ai) | [#10 — iOS SwiftUI feasibility study](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/10) | **Merged; documentation** |
 | [Solphivia Avatar AI](https://github.com/Trikto7e8/solphivia-avatar-ai) | [#11 — reproducible Android build baseline](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/11) | **Merged; documentation** |
 | [Solphivia Avatar AI](https://github.com/Trikto7e8/solphivia-avatar-ai) | [#12 — scoped Android API 36 migration plan](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/12) | **Merged; documentation** |
+| [Solphivia Avatar AI](https://github.com/Trikto7e8/solphivia-avatar-ai) | [#16 — Stage A provider architecture](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/16) | **Merged; implementation** |
 
 ### Submitted / under review — not claimed as merged
 
-- **[Microsoft Amplifier Agent — PR #205](https://github.com/microsoft/amplifier-agent/pull/205):** prompt-cache prefix stability fix for skill-hook context. **Approved by a maintainer; open, awaiting merge.** Not a Microsoft employment or accepted-contribution claim.
+- **[Microsoft Amplifier Agent — PR #205](https://github.com/microsoft/amplifier-agent/pull/205):** prompt-cache prefix stability fix for skill-hook context. **Open; human review / workflow approval pending.** Not an accepted contribution.
 - **[IBM ContextForge — backend PR #7326](https://github.com/IBM/mcp-context-forge/pull/7326):** expose the observability-enabled flag in metrics API responses. **Open; not merged.**
 - **[ContextForge Web UI — PR #203](https://github.com/contextforge-org/contextforge-web-ui/pull/203):** distinguish disabled observability from enabled-but-no-traffic dashboard states; linked to the backend change. **Open; not merged.**
-- **[Solphivia Avatar AI — PR #16](https://github.com/Trikto7e8/solphivia-avatar-ai/pull/16):** Stage A Kotlin provider architecture, consent/cancellation boundaries and JVM regression tests. **Open; maintainer review pending.** Local JVM tests and Android build/lint were reported passing; connected-device and authenticated runtime validation remain outstanding.
 - **[Google OSV-SCALIBR — PR #2500](https://github.com/google/osv-scalibr/pull/2500):** JavaScript package contributor-handling fix. **Open; under review.**
-- **[Sovereign Veritas — PR #86](https://github.com/holland202/sovereign-veritas/pull/86):** independent Python permission-gate proposal. **Open GitHub draft.**
+- **[Tracecost — PR #8](https://github.com/thanatchon36/tracecost/pull/8):** gzip OTLP/Langfuse export reader support. **Open; awaiting review.**
 - **[Principia Artificialis — PR #37](https://github.com/holland202/principia-artificialis/pull/37):** draft Evidence-Gated Residual Representation (EGRR) preregistration research protocol. **Open proposal, not approved or experimentally confirmed.**
 
 **Closed without merge:** [Ruff #29544](https://github.com/astral-sh/ruff/pull/29544) (doctest-output section detection) and [Hugging Face Hub #5218](https://github.com/huggingface/huggingface_hub/pull/5218). These are submissions, not accepted contributions.
+
+---
+
+## Contributor recognition and repository labels
+
+- **Flisk contributor leaderboard:** [2 upstream merged PRs and 2 issues fixed; highest project rank 7 kyu](https://github.com/flisk-sh/flisk/issues/2070). The rank is project-specific, not a professional certification.
+- **Hacktoberfest-accepted:** [Squidbrake PR #136](https://github.com/batrapulkit/squidbrake/pull/136) carries the maintainer-applied `hacktoberfest-accepted` label. This is a PR classification, not proof of an external prize.
+- **GitHub issue/PR labels audit (26 October 2026):** **15 label assignments, 14 distinct names** across 55 authored PRs and 2 authored issues checked. Labels are maintained per repository, not awarded to a GitHub account globally. This snapshot may change.
+
+Representative labels: `python` · `documentation` · `ci` · `tech: javascript` · `tech: github-actions` · `tech: vitest` · `tech: biome` · `area: tests` · `area: scripts` · `hacktoberfest-accepted`.
+
+**Evidence first:** [Microsoft Agent Framework #9695](https://github.com/microsoft/agent-framework/pull/9695) · [Microsoft Windows Container Tools #240](https://github.com/microsoft/windows-container-tools/pull/240) · [Docling #415](https://github.com/docling-project/docling-pipelines/pull/415) · [Squidbrake #136](https://github.com/batrapulkit/squidbrake/pull/136) · [Flisk leaderboard](https://github.com/flisk-sh/flisk/issues/2070).
 
 ---
 
@@ -92,8 +110,8 @@ Some research artifacts are local or in development; links are provided only whe
 
 ## Current contribution and research status
 
-- **Merged upstream:** 11 individually verified PRs across Docling Pipelines, Flisk and Solphivia Avatar AI (including design/documentation contributions).
-- **Under review:** Microsoft Amplifier, IBM ContextForge backend, ContextForge Web UI, Google OSV-SCALIBR, Solphivia Stage A and research proposals. Open PRs are **not** counted as accepted contributions.
+- **Merged upstream:** See the individually linked and verified PRs above across Microsoft Agent Framework, Windows Container Tools, Docling, Flisk, Squidbrake, Sovereign Veritas and Solphivia. Documentation contributions are distinguished from code changes.
+- **Under review:** Microsoft Amplifier, IBM ContextForge backend, ContextForge Web UI, Google OSV-SCALIBR, Tracecost and research proposals. Open PRs are **not** counted as accepted contributions.
 - **Research limits:** LittleLess AI's large-model RAM/quality targets and Sunny Local AI's broader autonomous-agent goals remain ongoing research, not demonstrated AGI or verified large-model breakthroughs.
 
 ---
