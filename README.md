@@ -58,9 +58,11 @@ ROS 2 Jazzy navigation and safety source with successful source/build CI. End-to
 
 ## Open-source contribution
 
+[![Founding Contributor #10 @sunny-kavixo](https://img.shields.io/static/v1?label=%E2%9A%A1%20FOUNDING%20CONTRIBUTOR&message=%2310%20of%20100%20%E2%80%A2%20%40sunny-kavixo&color=06b6d4&labelColor=07080f&style=for-the-badge)](https://discord.gg/qMu5Xn8Kaq)
+
 [![FLISK HALL OF FAME @sunny-kavixo • 101 merged PRs](https://img.shields.io/badge/FLISK%20HALL%20OF%20FAME-%40sunny_kavixo%20%E2%80%A2%20101%20merged%20PRs-06b6d4?style=for-the-badge&labelColor=07080f)](https://github.com/flisk-sh/flisk/issues/1799)
 
-The live [Flisk Hall of Fame](https://github.com/flisk-sh/flisk/issues/1799) records **101 merged pull requests**, **101 issues fixed**, and a highest rank of **4 kyu** for `@sunny-kavixo`.
+**Flisk Founding Contributor #10 of 100**, recognized for open-source contributions. The [Flisk Hall of Fame](https://github.com/flisk-sh/flisk/issues/1799) records **101 merged pull requests**, **101 issues fixed**, and a highest rank of **4 kyu**.
 
 ## Tools and languages
 
